@@ -1,0 +1,46 @@
+.MyPage{
+    width:500px;
+    margin:auto;
+    background-color:#058053;
+}
+
+.MyPage h1{
+    color:aliceblue;
+    margin:10px;
+}
+
+.MyPage div{
+    margin:10px;
+}
+
+.MyPage div label{
+    margin-right: 15px;
+    color:aliceblue;
+}
+
+.MyPage div input{
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    background-color: #058053;
+    color:aliceblue;
+    width:400px;
+    padding:5px;
+}
+
+
+.MyPage div input::placeholder{
+    color:#B3D1CC;
+}
+
+.MyPage button{
+    background-color: #B3D1CC;
+    border: none;
+    border-radius: 5px;
+    padding:5px 10px;
+    margin:10px 5px;
+    cursor:pointer;
+}
+
+.address input{
+    margin-left: 15px;
+}

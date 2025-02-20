@@ -1,0 +1,45 @@
+.Signup{
+    width:500px;
+    margin:auto;
+    padding:20px 5px;
+    background-color:#058053;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Signup div{
+    display:flex;
+    padding:5px 10px;
+}
+
+.Signup div input{
+    border:none;
+    border-radius: 5px;
+    width:300px;
+
+}
+
+.pw{
+    margin-bottom: 30px;
+}
+
+.id input{
+    margin-left: 10px;
+}
+
+.Signup h3{
+    color:aliceblue;
+    margin:5px;
+}
+
+.Signup button{
+    border:none;
+    border-radius: 5px;
+    width:250px;
+    padding:10px 5px;
+    background-color:#B3D1CC;
+    margin-top: 20px;
+    cursor: pointer;
+}
