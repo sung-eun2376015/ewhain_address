@@ -7,7 +7,7 @@ import MyPage from "./pages/MyPage";
 import Signup from "./pages/Signup";
 
 function App() {
-  const [data,setData]=useState([{id:"1234",pw:"",name:"곽성은",num:"46기",team:"웹개발팀",phoneNum:"",address:"경기도 군포시 삼성로",email:""}]);
+  const [data,setData]=useState([{id:"1234",pw:"",name:"곽성은",num:"46",team:"웹개발팀",phoneNum:"",address:"경기도 군포시 삼성로",email:""}]);
   
   const onUpdate=(input)=>{
     const updatedData= data.map((item)=>item.id===input.id ? input:item)
@@ -31,7 +31,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Login/>}/>
-        <Route path="/MainPage" element={<MainPage/>}/>
+        <Route path="/MainPage" element={<MainPage data={data} />}/>
         <Route path="/MyPage" element={<MyPage data={data} onUpdate={onUpdate} onDelete={onDelete}/>}/>
         <Route path="/Signup" element={<Signup onCreate={onCreate}/>}/>
       </Routes>

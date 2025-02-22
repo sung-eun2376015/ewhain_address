@@ -1,0 +1,36 @@
+.Mainpage {
+    width: 500px;
+    min-height: 320px;
+    margin: auto;
+    background-color: #058053;
+}
+.Mainpage-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Mainpage-head button{
+    cursor: pointer;
+    margin:10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(256, 256,256, 0.5); 
+    padding:5px;
+    height: fit-content;
+}
+.Mainpage-head h1{
+    color: aliceblue;
+    margin: 10px;
+}
+.Mainpage table{
+    margin:10px; 
+    border:1px solid black;
+    border-collapse: collapse; 
+    width: 480px;
+}
+.Mainpage th{ 
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+}

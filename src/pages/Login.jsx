@@ -14,7 +14,7 @@ const Login=()=>{
                 <input placeholder='pw를 입력해주세요' value={loginData.pw} onChange={(e)=>setLoginData({...loginData,pw:e.target.value})}/>
             </div>
             <div className='buttons'>
-                <button>LOGIN</button>
+                <button onClick={()=>nav("/MainPage")}>LOGIN</button>
                 <button onClick={()=>nav("/signup")}>회원가입</button>
             </div>
         </div>
